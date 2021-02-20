@@ -4,10 +4,11 @@ using System.Text;
 
 namespace wpf_demo.ViewModel
 {
-   public class MainWindowViewModel:GalaSoft.MvvmLight.ViewModelBase
+    public class MainWindowViewModel:GalaSoft.MvvmLight.ViewModelBase
     {
         private string _Title;
         private double _Age=30;
+        private double _ProcessValue = 0;
 
         public string Title
         {
@@ -18,6 +19,11 @@ namespace wpf_demo.ViewModel
         {
             get => _Age;
             set => Set(ref _Age, value);
+        }
+        public double ProcessValue
+        {
+            get => _ProcessValue;
+            set => Set(ref _ProcessValue, value);
         }
     }
 }

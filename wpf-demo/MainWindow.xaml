@@ -10,5 +10,8 @@
     <StackPanel>
         <hc:NumericUpDown Value="{Binding Age,Converter={StaticResource LevelConverter}}"></hc:NumericUpDown>
         <hc:TextBox x:Name="SelectPrintTaskName" HorizontalAlignment="Left" ShowClearButton="False" IsReadOnly="True" Width="280" Height="30" hc:InfoElement.TitleWidth="70" hc:InfoElement.Placeholder="请选择一个任务" hc:InfoElement.TitlePlacement="Left" hc:InfoElement.Title="任务名称" hc:InfoElement.Necessary="True" Margin="0,0,0,0"/>
+        <ProgressBar Minimum="0" Maximum="100" Value="{Binding ProcessValue}"></ProgressBar>
+        <Button Click="Button_Click" Tag="stop">停止</Button>
+        <Button Click="Button_Click" Tag="wait">暂停</Button>
     </StackPanel>
 </Window>

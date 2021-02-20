@@ -33,3 +33,4 @@ E:\技术\wpf\demo\wpf-demo\wpf-demo\obj\Debug\netcoreapp3.1\wpf-demo.csproj.Cop
 E:\技术\wpf\demo\wpf-demo\wpf-demo\obj\Debug\netcoreapp3.1\wpf-demo.dll
 E:\技术\wpf\demo\wpf-demo\wpf-demo\obj\Debug\netcoreapp3.1\wpf-demo.pdb
 E:\技术\wpf\demo\wpf-demo\wpf-demo\obj\Debug\netcoreapp3.1\wpf-demo.genruntimeconfig.cache
+E:\技术\wpf\demo\wpf-demo\wpf-demo\obj\Debug\netcoreapp3.1\wpf-demo.csprojAssemblyReference.cache
